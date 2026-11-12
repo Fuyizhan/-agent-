@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --surface-1: #ffffff;
+  --surface-2: #f8fafc;
+  --surface-3: #e2e8f0;
+  --surface-4: #cbd5e1;
+  --text: #0f172a;
+  --muted: #64748b;
+  --accent-cyan: #6366f1;
+  --accent-green: #10b981;
+  --accent-amber: #f59e0b;
+  --accent-red: #ef4444;
+  --accent-purple: #8b5cf6;
+}
+
+.dark {
+  --surface-1: #0f172a;
+  --surface-2: #1e293b;
+  --surface-3: #334155;
+  --surface-4: #475569;
+  --text: #f1f5f9;
+  --muted: #94a3b8;
+  --accent-cyan: #818cf8;
+  --accent-green: #34d399;
+  --accent-amber: #fbbf24;
+  --accent-red: #f87171;
+  --accent-purple: #a78bfa;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  @apply bg-surface-1 text-text antialiased;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
